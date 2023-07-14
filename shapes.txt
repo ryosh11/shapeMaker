@@ -1,0 +1,5 @@
+square
+rectangle
+circle
+triangle
+rhombus
