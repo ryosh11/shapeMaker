@@ -30,6 +30,11 @@ def rhombus():
         t.left(90)
         t.forward(100)
 
+def star():
+    for i in range(5):
+        t.forward(100)
+        t.right(144)
+
 name = input("What shape should I draw. ")
 if name == "square":
     square()
@@ -41,3 +46,5 @@ elif name == "circle":
     circle()
 elif name == "rhombus":
     rhombus()
+elif name == "star":
+    star()
